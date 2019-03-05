@@ -39,7 +39,7 @@ This is a sample app to manage clients using Angular 6 as front end and Firebase
   + Bring in Services Dependencies from AngularFire2 and also Observables.
   + [Write Service function according to AngularFire2 documemtation](https://github.com/angular/angularfire2/blob/master/docs/firestore/collections.md)
   + [Solve the issue related to Firestore Settings in version 5.8.0](https://github.com/angular/angularfire2/issues/1993)
-  
+  + Create the clients html page - table with balance and titalOwned.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
