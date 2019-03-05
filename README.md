@@ -12,7 +12,19 @@ This is a sample app to manage clients using Angular 6 as front end and Firebase
 + Install dependencies: bootstrap, font-awesome
   + npm install bootstrap@4.0.0-beta.2 jquery popper.js font-awesome --save
   + Include dependencies in style and script sections of angular.json
-
++ Generate application components
+  + ng g c components/navbar --spec=false
+  + ng g c components/dashboard --spec=false
+  + ng g c components/clients --spec=false
+  + ng g c components/client-details --spec=false
+  + ng g c components/add-client --spec=false
+  + ng g c components/edit-client --spec=false
+  + ng g c components/login --spec=false
+  + ng g c components/register --spec=false
+  + ng g c components/sidebar --spec=false
+  + ng g c components/settings --spec=false
+  + ng g c components/not-found --spec=false
++ Setup the navbar component with basic navigation
 
 ## Development server
 
