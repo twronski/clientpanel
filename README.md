@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
 
+## Project Description
+
+This is a sample app to manage clients using Angular 6 as front end and Firebase as back end.
+
+## Steps to Create the Project
+
++ ng new clientpanel
++ Install dependencies: bootstrap, font-awesome
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
