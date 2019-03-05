@@ -21,6 +21,8 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { ClientService } from './services/client.service';
 
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +43,8 @@ import { ClientService } from './services/client.service';
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase, 'clientpanel-prod-163af'),
     AngularFirestoreModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    FormsModule
   ],
   providers: [ClientService,
              { provide: FirestoreSettingsToken, useValue: {} }
