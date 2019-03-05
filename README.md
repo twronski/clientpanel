@@ -25,7 +25,13 @@ This is a sample app to manage clients using Angular 6 as front end and Firebase
   + ng g c components/settings --spec=false
   + ng g c components/not-found --spec=false
 + Setup the navbar component with basic navigation
-
++ Create the routing module and routes
+  + ng g m app-routing --flat --module=app --spec=false
+  + Import all components in the app-routing file
+  + Create the routes
+  + Edit navbar with the created routes / routerLink="xxx"
+  + Include `<router-outlet> </router-outlet>` tag in the app.component.html file
+  
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
