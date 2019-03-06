@@ -49,6 +49,8 @@ This is a sample app to manage clients using Angular 6 as front end and Firebase
     `newClient(client: Client){
      this.clientsCollection.add(client);
      }`
+  + Create service `getClient(id) function` to collect one document in firebase;
+  + Implement the details view.
 
 ## Development server
 
