@@ -23,6 +23,8 @@ import { ClientService } from './services/client.service';
 
 import { FormsModule } from '@angular/forms';
 
+import { FlashMessagesModule } from 'angular2-flash-messages';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,7 +46,8 @@ import { FormsModule } from '@angular/forms';
     AngularFireModule.initializeApp(environment.firebase, 'clientpanel-prod-163af'),
     AngularFirestoreModule,
     AngularFireAuthModule,
-    FormsModule
+    FormsModule,
+    FlashMessagesModule.forRoot()
   ],
   providers: [ClientService,
              { provide: FirestoreSettingsToken, useValue: {} }

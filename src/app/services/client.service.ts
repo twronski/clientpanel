@@ -31,6 +31,10 @@ export class ClientService {
     return this.clients;
   }
 
+  newClient(client: Client){
+    this.clientsCollection.add(client);
+  }
+
   // getClients(): Observable<Client[]> {
   //   // Get clients with the id
   //   this.clients = this.clientsCollection.snapshotChanges().map(changes => {

@@ -41,6 +41,14 @@ This is a sample app to manage clients using Angular 6 as front end and Firebase
   + [Solve the issue related to Firestore Settings in version 5.8.0](https://github.com/angular/angularfire2/issues/1993)
   + Create the clients html page - table with balance and totalOwned.
   + Create the add-client Form using template driven Form
+  + Template Driven Form use the @ViewChild decorator: `@ViewChild(<name_of_the_form_in_html_file>)`
+  + Implement the onSubmit Form function
+  + [Add Angular2-Flash-Messages npm module](https://www.npmjs.com/package/angular2-flash-messages)
+  + Implement Flash Messages
+  + Create Service to add new Client in Firebase:
+    `newClient(client: Client){
+     this.clientsCollection.add(client);
+     }`
 
 ## Development server
 
