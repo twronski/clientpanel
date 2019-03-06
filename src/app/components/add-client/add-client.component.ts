@@ -25,8 +25,7 @@ export class AddClientComponent implements OnInit {
   constructor(
     private flashMessages: FlashMessagesService,
     private clientService: ClientService,
-    private router: Router)
-    { }
+    private router: Router) { }
 
   ngOnInit() {
   }
@@ -42,13 +41,13 @@ export class AddClientComponent implements OnInit {
         });
 
       } else {
-        //Add Client
+        // Add Client
         this.clientService.newClient(value);
-        //Success Flash  Message 
+        // Success Flash  Message
         this.flashMessages.show('User Added', {
           cssClass: 'alert-success', timeout: 4000
         });
-        //Redirect to Dashboard
+        // Redirect to Dashboard
         this.router.navigate(['/']);
       }
   }
