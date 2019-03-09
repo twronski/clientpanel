@@ -18,7 +18,7 @@ export class ClientService {
   constructor(private afs: AngularFirestore) {
     // 'Clients' matches the name of the collection in Firebase
     this.clientsCollection = this.afs.collection('Clients',
-    ref => ref.orderBy('lastName', 'asc'));
+    ref => ref.orderBy('balance', 'desc'));
   }
 
   getClients(): Observable<Client[]> {
@@ -55,6 +55,11 @@ export class ClientService {
   updateClient(client: Client) {
     this.clientDoc = this.afs.doc(`Clients/${client.id}`);
     this.clientDoc.update(client);
+  }
+
+  deleteClient(client: Client) {
+    this.clientDoc = this.afs.doc(`Clients/${client.id}`);
+    this.clientDoc.delete();
   }
 
   // getClients(): Observable<Client[]> {
