@@ -43,7 +43,7 @@ export class ClientDetailsComponent implements OnInit {
     });
   }
 
-  onDeleteClick(){
+  onDeleteClick() {
 
     if (confirm('Are you sure ?')) {
       this.clientService.deleteClient(this.client);

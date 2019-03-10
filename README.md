@@ -51,6 +51,10 @@ This is a sample app to manage clients using Angular 6 as front end and Firebase
      }`
   + Create service `getClient(id) function` to collect one document in firebase;
   + Implement the details view.
+  + Implement the update balance form
+  + Update the edit and delete functionalities
+  + [Implement Authorization using `AngularFireAuth`](https://angularfirebase.com/snippets/angularfire2-version-4-authentication-service/)
+  + [Good Documentation and Snippets about Authorization](https://angularfirebase.com/snippets/angularfire2-version-4-authentication-service/)
 
 ## Development server
 
