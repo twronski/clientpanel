@@ -21,5 +21,9 @@ export class AuthService {
   getAuth() {
     return this.fireAuth.authState.pipe(auth => auth);
   }
+
+  logout(){
+    this.fireAuth.auth.signOut();
+  }
 }
 
