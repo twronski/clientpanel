@@ -25,6 +25,7 @@ import { AuthService } from './services/auth.service';
 import { FormsModule } from '@angular/forms';
 
 import { FlashMessagesModule } from 'angular2-flash-messages';
+import { SettingsService } from './services/settings.service';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { FlashMessagesModule } from 'angular2-flash-messages';
   ],
   providers: [ClientService,
              { provide: FirestoreSettingsToken, useValue: {} },
-             AuthService
+             AuthService,
+             SettingsService
     ],
   bootstrap: [AppComponent]
 })

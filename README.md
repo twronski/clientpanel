@@ -55,6 +55,8 @@ This is a sample app to manage clients using Angular 6 as front end and Firebase
   + Update the edit and delete functionalities
   + [Implement Authorization using `AngularFireAuth`](https://angularfirebase.com/snippets/angularfire2-version-4-authentication-service/)
   + [Good Documentation and Snippets about Authorization](https://angularfirebase.com/snippets/angularfire2-version-4-authentication-service/)
+  + Create Guards to access management. Included the AuthGuard Service and Inject it in app.routing
+  + Settings services and Register Guard
 
 ## Development server
 
