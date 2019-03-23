@@ -21,10 +21,10 @@
           <!-- <button (click)="onClickSignOut()" class="btn btn-link nav-link" href="">Sign Out</button> -->
             <a href="#"  (click)="onClickSignOut()" class="nav-link">Sign Out</a>
         </li>
-        <li *ngIf="!isLoggedIn" class="nav-item">
+        <li *ngIf="!isLoggedIn && showRegister" class="nav-item">
           <a routerLink="/register" class="nav-link">Register</a>
         </li>
-        <li *ngIf="!isLoggedIn" class="nav-item">
+        <li *ngIf="!isLoggedIn && showRegister" class="nav-item">
           <a routerLink="/login" class="nav-link">Login</a>
         </li>
       </ul>

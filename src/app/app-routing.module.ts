@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AddClientComponent } from './components/add-client/add-client.component';
 import { ClientDetailsComponent} from './components/client-details/client-details.component';
-import { ClientsComponent } from './components/clients/clients.component';
 import { DashboardComponent} from './components/dashboard/dashboard.component';
 import { EditClientComponent } from './components/edit-client/edit-client.component';
 import { LoginComponent } from './components/login/login.component';
