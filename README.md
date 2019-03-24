@@ -57,7 +57,8 @@ This is a sample app to manage clients using Angular 6 as front end and Firebase
   + [Good Documentation and Snippets about Authorization](https://angularfirebase.com/snippets/angularfire2-version-4-authentication-service/)
   + Create Guards to access management. Included the AuthGuard Service and Inject it in app.routing
   + Settings services and Register Guard
-
+  + Add the settings component
+  
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
